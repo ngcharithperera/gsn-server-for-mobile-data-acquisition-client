@@ -34,6 +34,7 @@ public class AndroidWrapper extends AbstractWrapper {
 	private int counter;
 	private AddressBean params;
 	private long rate = 1000;
+	int s1ded1;
 	// New
 	// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -374,7 +375,7 @@ public class AndroidWrapper extends AbstractWrapper {
 			Double[] ab;
 			ab = sensorDataCollection.toArray(arraysensorDataCollection);
 			
-			postStreamElement(ab);
+			postStreamElement(new Serializable[] {ab});
 
 		}
 	}
