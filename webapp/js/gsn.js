@@ -557,7 +557,7 @@ var GSN = {
   		
         $.ajax({
             type: "GET",
-            url: "/gsn?REQUEST=0&omit_latest_values=true",
+            url: "/gsn?REQUEST=0&omit_latest_values=false",
             success: function(data){
                 var start = new Date();
                 //initalisation of gsn info, vsmenu
@@ -2221,4 +2221,3 @@ var GSN = {
 		
     }
 };
-
