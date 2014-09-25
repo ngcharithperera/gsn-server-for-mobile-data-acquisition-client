@@ -50,5 +50,3 @@ You can start by loading the MultiFormatTemperatureHandler virtual sensor (`virt
 This virtual sensor generates random values without the need of an actual physical sensor.
 
 Virtual sensors are visible in the GSN web interface: <http://localhost:22001>
-
-
