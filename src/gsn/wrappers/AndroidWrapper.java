@@ -108,6 +108,8 @@ public class AndroidWrapper extends AbstractWrapper {
 		// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 		try {
+			
+			// Wait until it receives the meta data packet from
 			serverSocket = new ServerSocket(SERVERPORT);
 			Socket client = serverSocket.accept();
 
